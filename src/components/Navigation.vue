@@ -61,6 +61,8 @@ li {
 }
 .card {
     padding: .5rem 0;
+    -webkit-backdrop-filter: blur(16px);
+    backdrop-filter: blur(16px);
 }
 .container {
     position: absolute;
