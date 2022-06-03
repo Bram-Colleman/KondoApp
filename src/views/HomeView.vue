@@ -20,7 +20,7 @@ setTimeout(function(){
 
 <template>
   <main>
-    <Navigation :active="active"></Navigation>
+    <Navigation :active="active" class="navigation"></Navigation>
     <Logo class="logo"></Logo>
     <SearchBar class="searchbar"></SearchBar>
     <img src="../assets/currentLoc.svg" alt="" class="currentloc">
@@ -39,6 +39,10 @@ setTimeout(function(){
 main {
     height: 100vh;
     background-image: url('../assets/map.svg');
+}
+.navigation {
+    position: absolute;
+    bottom: 2rem;
 }
 .logo {
   width: 10rem;

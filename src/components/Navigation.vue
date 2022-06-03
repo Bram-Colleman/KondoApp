@@ -65,9 +65,7 @@ li {
     backdrop-filter: blur(16px);
 }
 .container {
-    position: absolute;
     width: 100%;
-    bottom: 2rem;
 }
 .active {
 color: #5AB522;
