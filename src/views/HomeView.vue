@@ -42,7 +42,7 @@ main {
 }
 .navigation {
     position: absolute;
-    bottom: 2rem;
+    top: 46.75rem;
 }
 .logo {
   width: 10rem;
