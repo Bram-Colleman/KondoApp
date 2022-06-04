@@ -8,24 +8,22 @@ const active = ref("new");
 
 <template>
   <main>
-      <div class="container">
-          <div class="card">
-              <h1>Nieuw aanbod</h1>
-              <div class="inputcontainer">
-                  <input type="text" disabled class="input pic" />
-                  <input type="text" class="input target" placeholder="Adres" />
-                  <input type="number" class="input" placeholder="Bewoonbare oppervlakte (m&sup2;)" />
-                  <input type="number" class="input" placeholder="Aantal slaapkamers" />
-                  <input type="number" class="input" placeholder="Aantal badkamers" />
-                  <input type="number" class="input" placeholder="Aantal wc's" />
-                  <input type="text" class="input" placeholder="Extra info" />
-                  <Routerlink to="" class="btn">Bevestig</Routerlink>
-              </div>
+      <div class="pagecontainer">
+            <div class="card">
+                <h1>Nieuw aanbod</h1>
+                <div class="inputcontainer">
+                    <input type="text" disabled class="input pic" />
+                    <input type="text" class="input target" placeholder="Adres" />
+                    <input type="number" class="input" placeholder="Bewoonbare oppervlakte (m&sup2;)" />
+                    <input type="number" class="input" placeholder="Aantal slaapkamers" />
+                    <input type="number" class="input" placeholder="Aantal badkamers" />
+                    <input type="number" class="input" placeholder="Aantal wc's" />
+                    <input type="text" class="input" placeholder="Extra info" />
+                    <Routerlink to="" class="btn">Bevestig</Routerlink>
+                </div>
     
-          </div>
-          <div class="navcontainer">
-              <Navigation class="navigation" :active="active" />
-          </div>
+            </div>
+            <Navigation class="navigation" :active="active" />
       </div>
   </main>
 </template>
@@ -41,15 +39,15 @@ main {
     overflow-y: hidden;
 
 }
-.container {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-
+.pagecontainer {
     height: 100%;
     height: -moz-available;          
     height: -webkit-fill-available;  
     height: fill-available;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
 }
 
 .navigation {
