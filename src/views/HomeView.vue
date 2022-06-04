@@ -76,7 +76,7 @@ main {
 }
 .loadcontainer {
     padding: 0;
-    margin: 2rem 0;
+    margin: 0;
     position: absolute;
     top: 0;
     left: 0;
@@ -97,6 +97,7 @@ main {
     align-items: center;
     padding: 0;
     flex-grow: 1;
+
     height: 100%;
     height: -moz-available;          
     height: -webkit-fill-available;  
