@@ -65,7 +65,20 @@ main {
   /* margin-bottom: 3rem; */
 }
 .loadcontainer {
-    padding-top: 10%;
+    padding: 0;
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: flex;
+    height: 95vh;
+    margin-top: 2.5vh;
+}
+.load {
+    width: 22.375rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0;
 }
 .currentloc {
     position: absolute;
