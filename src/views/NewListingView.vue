@@ -38,6 +38,8 @@ main {
     height: fill-available;
     background-image: url('../assets/bg.svg');
     background-size: cover;
+    overflow-y: hidden;
+
 }
 .container {
     display: flex;
