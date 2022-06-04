@@ -29,12 +29,12 @@ setTimeout(function(){
             <div class="card target">
                 <i class="fa-solid fa-crosshairs"></i>
             </div>
-            <Navigation :active="active" class="navigation"></Navigation>
+            <Navigation :active="active"></Navigation>
         </section>
     </div>
     <img src="../assets/currentLoc.svg" alt="" class="currentloc">
     <i class="fa-solid fa-location-dot pinpoint" @click="detail = !detail"></i>
-    <detail-menu-home class="detail" v-if="!detail"></detail-menu-home>
+    <detail-menu-home class="detail" v-if="detail"></detail-menu-home>
 
     <div class="loadcontainer" v-if="loading">
         <LoadAnimation class="load"></LoadAnimation>
@@ -62,7 +62,7 @@ main {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    margin:0;
+    padding:2rem 0;
     flex-grow: 1;
 }
 .navigation {
@@ -76,6 +76,7 @@ main {
 }
 .loadcontainer {
     padding: 0;
+    margin: 2rem 0;
     position: absolute;
     top: 0;
     left: 0;

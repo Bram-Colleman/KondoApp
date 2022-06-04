@@ -2,8 +2,8 @@
     <div class="card">
         <h1>Aanmelden</h1>
         <form action="">
-            <input type="email" name="" id="" placeholder="E-mail adres" class="input">
-            <input type="password" name="" id="" placeholder="Wachtwoord" class="input">
+            <input type="email" name="" placeholder="E-mail adres" class="input">
+            <input type="password" name="" placeholder="Wachtwoord" class="input">
             <RouterLink to="/forgot" class="btn--link">Wachtwoord vergeten?</RouterLink>
             <RouterLink to="/home" class="btn mt-1">Aanmelden</RouterLink>
             <p>Nog geen account?</p>

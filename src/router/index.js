@@ -24,9 +24,9 @@ const router = createRouter({
       component: () => import('../views/HomeView.vue')
     },
     {
-      path: '/messages',
-      name: 'messages',
-      component: () => import('../views/RegisterView.vue')
+      path: '/new',
+      name: 'new listing',
+      component: () => import('../views/NewListingView.vue')
     }
   ]
 })
