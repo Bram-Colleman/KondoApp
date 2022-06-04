@@ -6,8 +6,8 @@ import ForgotForm from '../components/ForgotForm.vue';
 <template>
   <main>
     <RouterLink to="/" class="back"><i class="fa-solid fa-arrow-left"></i></RouterLink> 
-    <Logo class="logo"></Logo>
-    <ForgotForm></ForgotForm>
+    <Logo class="logo" />
+    <ForgotForm />
   </main>
 </template>
 

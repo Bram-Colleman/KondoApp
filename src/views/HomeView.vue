@@ -22,22 +22,22 @@ setTimeout(function(){
   <main>
       <div class="pagecontainer">
         <section class="top-navigation">
-            <Logo class="logo"></Logo>
-            <SearchBar class="searchbar"></SearchBar>
+            <Logo class="logo" />
+            <SearchBar class="searchbar" />
         </section>
         <section class="bottom-navigation">
             <div class="card target">
                 <i class="fa-solid fa-crosshairs"></i>
             </div>
-            <Navigation :active="active"></Navigation>
+            <Navigation :active="active" />
         </section>
     </div>
     <img src="../assets/currentLoc.svg" alt="" class="currentloc">
     <i class="fa-solid fa-location-dot pinpoint" @click="detail = !detail"></i>
-    <detail-menu-home class="detail" v-if="detail"></detail-menu-home>
+    <detail-menu-home class="detail" v-if="detail" />
 
     <div class="loadcontainer" v-if="loading">
-        <LoadAnimation class="load"></LoadAnimation>
+        <LoadAnimation class="load" />
       </div>
   </main>
 </template>

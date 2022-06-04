@@ -5,8 +5,8 @@ import RegisterForm from '../components/RegisterForm.vue';
 
 <template>
   <main>
-    <Logo class="logo"></Logo>
-    <RegisterForm></RegisterForm>
+    <Logo class="logo" />
+    <RegisterForm />
   </main>
 </template>
 
