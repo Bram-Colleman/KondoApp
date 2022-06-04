@@ -7,10 +7,6 @@ let props = defineProps({
 
 onMounted(() => {
     switch(props.active) {
-      case "new":
-          document.querySelector("#new").src="src/assets/newListingActive.svg";
-          console.log(document.querySelector("#new"));
-        break;
       case "messages":
           document.querySelector("#messages").classList.add("active");
         break;
@@ -32,7 +28,10 @@ onMounted(() => {
 <div class="container">
     <nav class="card">
         <ul>
-            <li><RouterLink to="/new"><img src="../assets/newListing.svg" class="icon" id="new"></RouterLink></li>
+            <li><RouterLink to="/new">
+                <img src="../assets/newListing.svg" class="icon" id="new" v-if="props.active != 'new'">
+                <img src="../assets/newListingActive.svg" class="icon" id="new" v-if="props.active == 'new'">
+                </RouterLink></li>
             <li id="messages"><RouterLink to="/home"><i class="fa-solid  fa-paper-plane"></i></RouterLink></li>
             <li id="home"><RouterLink to="/home"><i class="fa-solid fa-location-dot"></i></RouterLink></li>
             <li id="profile"><RouterLink to="/home"><i class="fa-solid fa-user"></i></RouterLink></li>
