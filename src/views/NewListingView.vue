@@ -71,6 +71,7 @@ main {
 h1 {
     text-align: center;
     font-size: 1.75rem;
+    margin-top: 0;
 }
 .inputcontainer {
     display: flex;
