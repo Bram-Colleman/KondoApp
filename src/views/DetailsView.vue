@@ -19,7 +19,7 @@ const active = ref("home");
                     <div class="location"><i class="fa-solid fa-location-dot pinpoint"></i></div>
                     <div class="wrapper">
                         <span class="input"><img src="../assets/profilePic.png"/>Anneleen</span>
-                        <span class="input"><i class="fa-solid fa-user"></i>1 inwonende</span>
+                        <span class="input"><i class="fa-solid fa-user"></i>1 inwoner</span>
                         <span class="input"><i class="fa-solid fa-maximize"></i>81 m&sup2;</span>
                         <span class="input"><i class="fa-solid fa-bed"></i>1 kamer</span>
                         <span class="input"><i class="fa-solid fa-bath"></i>1 douche</span>
