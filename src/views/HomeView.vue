@@ -44,7 +44,7 @@ setTimeout(function(){
 
 <style scoped>
 main {
-    /* height: 100vh; */
+    height: 100vh;
     /* height: -webkit-fill-available;  */
     height: calc(100vh - calc(100vh - 100%));
 
