@@ -34,7 +34,7 @@ setTimeout(function(){
     </div>
     <img src="../assets/currentLoc.svg" alt="" class="currentloc">
     <i class="fa-solid fa-location-dot pinpoint" @click="detail = !detail"></i>
-    <detail-menu-home class="detail" v-if="detail"></detail-menu-home>
+    <detail-menu-home class="detail" v-if="!detail"></detail-menu-home>
 
     <div class="loadcontainer">
         <LoadAnimation v-if="loading" class="load"></LoadAnimation>
@@ -127,8 +127,8 @@ main {
 .detail {
     position: absolute; 
     width: 75%;
-    top: 22rem;
-    left: 2rem;
+    top: 176px;
+    left: 5rem;
 }
 
 .target {
