@@ -59,14 +59,16 @@ main {
     display: flex;
 }
 .card {
-    height: 100%;
-    margin: 2rem 1rem;
+    
+    margin: auto 1rem;
     display: flex;
     flex-direction: column;
     justify-content: center;
-    padding-top: 2rem;
+    padding: 2rem 1rem;
+    
     align-items: center;
     flex-shrink: 1;
+    flex-grow: 0;
 }
 h1 {
     text-align: center;
