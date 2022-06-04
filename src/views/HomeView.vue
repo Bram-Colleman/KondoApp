@@ -49,9 +49,9 @@ main {
 }
 .pagecontainer {
     display: flex;
-    /* height: 100vh;
-    height: -webkit-fill-available; */
-    height: calc(100vh - calc(100vh - 100%));
+    height: 100vh;
+    height: -webkit-fill-available; 
+    /* height: calc(100vh - calc(100vh - 100%)); */
     flex-direction: column;
     justify-content: space-between;
     margin:0;
