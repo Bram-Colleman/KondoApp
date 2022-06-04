@@ -36,8 +36,8 @@ setTimeout(function(){
     <i class="fa-solid fa-location-dot pinpoint" @click="detail = !detail"></i>
     <detail-menu-home class="detail" v-if="!detail"></detail-menu-home>
 
-    <div class="loadcontainer">
-        <LoadAnimation v-if="loading" class="load"></LoadAnimation>
+    <div class="loadcontainer" v-if="loading">
+        <LoadAnimation class="load"></LoadAnimation>
       </div>
   </main>
 </template>
@@ -111,7 +111,6 @@ main {
     flex-direction: column;
     justify-content: flex-end;
     align-items: center;
-    /* height: 100% ; */
 }
 
 .searchbar {
