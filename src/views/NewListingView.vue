@@ -62,6 +62,7 @@ main {
     display: flex;
     flex-direction: column;
     justify-content: center;
+    padding-top: 2rem;
     align-items: center;
     flex-shrink: 1;
 }
@@ -73,6 +74,8 @@ h1 {
     display: flex;
     flex-direction: column;
     width: 100%;
+    max-height: 50vh;
+    overflow: scroll;
 
 }
 .input {
@@ -82,6 +85,7 @@ h1 {
 .pic {
     height: 3rem;
     width: 3rem;
+    flex-shrink: 0;
     border-radius: .75rem;
     align-self: center;
     background-image: url(../assets/addPicture.svg);
