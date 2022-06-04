@@ -25,7 +25,7 @@ let favorite = ref(false);
                 <i class="fa-regular fa-star" v-if="favorite == false" @click="favorite = !favorite"></i>
                 <i class="fa-solid fa-star" v-if="favorite" @click="favorite = !favorite"></i>
             </div>
-            <Routerlink to="/detail" class="btn">Meer info</Routerlink>
+            <Routerlink to="/details" class="btn">Meer info</Routerlink>
         </div>
     </div>
 </div>
