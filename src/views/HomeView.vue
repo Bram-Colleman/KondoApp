@@ -45,11 +45,12 @@ setTimeout(function(){
 <style scoped>
 main {
     height: 100vh;
-    /* height: -webkit-fill-available;  */
-    height: calc(100vh - calc(100vh - 100%));
+    height: -webkit-fill-available; 
+    /* height: calc(100vh - calc(100vh - 100%)); */
 
 
     background-image: url('../assets/map.svg');
+    background-size: cover;
 }
 .pagecontainer {
     display: flex;
