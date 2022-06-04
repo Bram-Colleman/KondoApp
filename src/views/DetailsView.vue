@@ -2,7 +2,7 @@
 import { ref, onMounted } from 'vue';
 import Navigation from '../components/Navigation.vue';
 
-const active = ref("new");
+const active = ref("home");
 
 </script>
 
@@ -10,7 +10,8 @@ const active = ref("new");
   <main>
       <div class="pagecontainer">
             <div class="card">
-                <div>
+                <div class="grid">
+                    <RouterLink to="/home" class="back"><i class="fa-solid fa-arrow-left"></i></RouterLink> 
                     <h1>Stationstraat 18a</h1>
                     <p>Waasmunster</p>
                 </div>
@@ -165,6 +166,4 @@ p {
 .btn {
     flex-grow: 1;
 }
-
-
 </style>
