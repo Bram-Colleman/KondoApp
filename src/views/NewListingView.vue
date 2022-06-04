@@ -19,7 +19,7 @@ const active = ref("new");
                     <input type="number" class="input" placeholder="Aantal badkamers" />
                     <input type="number" class="input" placeholder="Aantal wc's" />
                     <input type="text" class="input" placeholder="Extra info" />
-                    <Routerlink to="" class="btn">Bevestig</Routerlink>
+                    <RouterLink to="/details" class="btn">Bevestig</RouterLink>
                 </div>
     
             </div>
