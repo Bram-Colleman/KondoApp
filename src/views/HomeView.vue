@@ -96,6 +96,7 @@ main {
     justify-content: center;
     align-items: center;
     padding: 0;
+    margin: 2rem 0;
     flex-grow: 1;
 
     height: 100%;
