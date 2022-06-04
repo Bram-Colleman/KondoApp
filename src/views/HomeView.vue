@@ -77,6 +77,7 @@ main {
     left: 0;
     display: flex;
     height: 95vh;
+    height: -webkit-fill-available; 
     margin-top: 2.5vh;
     width: 100vw;
     justify-content: center;
@@ -90,6 +91,8 @@ main {
     padding: 0;
     flex-grow: 1;
     height: 95vh;
+    height: -webkit-fill-available; 
+
 }
 .currentloc {
     position: absolute;
