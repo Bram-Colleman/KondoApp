@@ -13,7 +13,7 @@ let detail = ref(false);
 
 onMounted(() => {
 setTimeout(function(){ 
-    // loading.value = false;
+    loading.value = false;
 }, 2000);
 })
 </script>
