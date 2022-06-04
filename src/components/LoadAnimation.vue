@@ -13,11 +13,6 @@
   animation: load 1.5s steps(6);
   animation-fill-mode: forwards;
 }
-.container {
-    position: relative;
-    left: 50%;
-    transform: translateX(-25%);
-}
 .card {
     padding-top: 60%;
     padding-bottom: 60%;

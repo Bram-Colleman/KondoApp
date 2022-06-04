@@ -13,7 +13,7 @@ let detail = ref(false);
 
 onMounted(() => {
 setTimeout(function(){ 
-    loading.value = false;
+    // loading.value = false;
 }, 2000);
 })
 </script>
@@ -72,13 +72,18 @@ main {
     display: flex;
     height: 95vh;
     margin-top: 2.5vh;
+    width: 100vw;
+    justify-content: center;
+    align-items: center;
+    
 }
 .load {
-    width: 22.375rem;
     display: flex;
     justify-content: center;
     align-items: center;
     padding: 0;
+    flex-grow: 1;
+    height: 95vh;
 }
 .currentloc {
     position: absolute;
