@@ -20,18 +20,25 @@ setTimeout(function(){
 
 <template>
   <main>
-    <Navigation :active="active" class="navigation"></Navigation>
-    <Logo class="logo"></Logo>
-    <SearchBar class="searchbar"></SearchBar>
+      <div class="pagecontainer">
+        <section class="top-navigation">
+            <Logo class="logo"></Logo>
+            <SearchBar class="searchbar"></SearchBar>
+        </section>
+        <section class="bottom-navigation">
+            <div class="card target">
+                <i class="fa-solid fa-crosshairs"></i>
+            </div>
+            <Navigation :active="active" class="navigation"></Navigation>
+        </section>
+    </div>
     <img src="../assets/currentLoc.svg" alt="" class="currentloc">
     <i class="fa-solid fa-location-dot pinpoint" @click="detail = !detail"></i>
     <detail-menu-home class="detail" v-if="detail"></detail-menu-home>
-    <div class="card target">
-        <i class="fa-solid fa-crosshairs"></i>
-    </div>
+
     <div class="loadcontainer">
         <LoadAnimation v-if="loading" class="load"></LoadAnimation>
-    </div>
+      </div>
   </main>
 </template>
 
@@ -40,17 +47,22 @@ main {
     height: 100vh;
     background-image: url('../assets/map.svg');
 }
+.pagecontainer {
+    display: flex;
+    height: 100vh;
+    flex-direction: column;
+    justify-content: space-between;
+    margin:0;
+    flex-grow: 1;
+}
 .navigation {
-    position: absolute;
-    top: 46.75rem;
+    margin-bottom: 2rem;
 }
 .logo {
   width: 10rem;
-  position: absolute;
-  left: 50%;
-  transform: translateX(-50%);
-  top: 3.25rem;
-  margin-bottom: 3rem;
+  margin: 1rem 0;
+  /* transform: translateX(-50%); */
+  /* margin-bottom: 3rem; */
 }
 .loadcontainer {
     padding-top: 10%;
@@ -61,10 +73,23 @@ main {
     left: 297px;
 }
 
+.top-navigation {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.bottom-navigation {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+    /* height: 100% ; */
+}
+
 .searchbar {
-    position: absolute;
     width: 100%;
-    top: 8rem;
 }
 .pinpoint {
     font-size: 2.5rem;
@@ -81,12 +106,10 @@ main {
 }
 
 .target {
-    position: absolute;
+    align-self: flex-end;
     font-size: 2rem;
     padding:.75rem 1rem;
-    top: 41rem;
-    right: 1rem;
-    margin: 0;
+    margin: 0 1rem 1rem 0;
 }
 
 
