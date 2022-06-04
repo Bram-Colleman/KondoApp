@@ -44,19 +44,22 @@ setTimeout(function(){
 
 <style scoped>
 main {
-    height: 100vh;
-    height: -webkit-fill-available; 
-    /* height: calc(100vh - calc(100vh - 100%)); */
+    height: 100%;
+    height: -moz-available;          
+    height: -webkit-fill-available;  
+    height: fill-available;
 
 
     background-image: url('../assets/map.svg');
     background-size: cover;
 }
 .pagecontainer {
+    height: 100%;
+    height: -moz-available;          
+    height: -webkit-fill-available;  
+    height: fill-available;
+
     display: flex;
-    height: 100vh;
-    height: -webkit-fill-available; 
-    /* height: calc(100vh - calc(100vh - 100%)); */
     flex-direction: column;
     justify-content: space-between;
     margin:0;
@@ -77,8 +80,11 @@ main {
     top: 0;
     left: 0;
     display: flex;
-    height: 95vh;
-    height: -webkit-fill-available; 
+    height: 100%;
+    height: -moz-available;          
+    height: -webkit-fill-available;  
+    height: fill-available;
+
     width: 100vw;
     justify-content: center;
     align-items: center;
@@ -90,9 +96,10 @@ main {
     align-items: center;
     padding: 0;
     flex-grow: 1;
-    height: 95vh;
-    height: -webkit-fill-available; 
-
+    height: 100%;
+    height: -moz-available;          
+    height: -webkit-fill-available;  
+    height: fill-available;
 }
 .currentloc {
     position: absolute;
