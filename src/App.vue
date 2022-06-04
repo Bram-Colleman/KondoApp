@@ -8,6 +8,7 @@ import { RouterLink, RouterView } from 'vue-router'
 
 <style>
 @import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+@import url('./assets/base.css');
 @import url('./assets/btn.css');
 @import url('./assets/input.css');
 @import url('./assets/card.css');
@@ -17,5 +18,12 @@ html, body {
   padding: 0;
   margin: 0;
   color: #333333;
+
+  height: 100%;
+  height: -moz-available;          
+  height: -webkit-fill-available;  
+  height: fill-available;
 }
+
+
 </style>
