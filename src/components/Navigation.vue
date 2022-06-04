@@ -31,7 +31,7 @@ onMounted(() => {
 <div class="container">
     <nav class="card">
         <ul>
-            <li id="new"><RouterLink to="/new"><i class="fa-solid fa-location-dot"></i></RouterLink></li>
+            <li id="new"><RouterLink to="/new"><img src="../assets/newListing.svg" class="icon"></RouterLink></li>
             <li id="messages"><RouterLink to="/messages"><i class="fa-solid  fa-paper-plane"></i></RouterLink></li>
             <li id="home"><RouterLink to="/home"><i class="fa-solid fa-location-dot"></i></RouterLink></li>
             <li id="profile"><RouterLink to="/profile"><i class="fa-solid fa-user"></i></RouterLink></li>
@@ -47,13 +47,13 @@ ul {
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
+    align-items: center;
     list-style: none;
-    padding: 0;
+    padding: .5rem 0;
     margin: 0;
     
 }
 li {
-    padding: rem;
     flex-grow: 1;
     text-align: center;
     font-size: 2rem;
@@ -67,10 +67,17 @@ li {
 .container {
     width: 100%;
 }
+.icon {
+    height: 2rem;
+}
 .active {
 color: #5AB522;
 }
-
+a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 a, a:visited, a:hover, a:focus, a:active { text-decoration: none; color: unset; }
 
 </style>
