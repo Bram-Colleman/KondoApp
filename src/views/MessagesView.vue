@@ -121,7 +121,7 @@ h1 {
 .chat {
     background-color: white;
     border-radius: 1rem;
-    padding: .5rem 1rem;
+    padding: .5rem 0rem .5rem 1rem;
     display: flex;
     background-image: url("../assets/chatBg.png");
     background-size: contain;
@@ -165,12 +165,16 @@ h1 {
 }
 .name {
     font-size: 1.25rem;
+    flex-grow: 1;
+
 }
 .address {
     font-size: 14px;
+    flex-grow: 1;
 }
 .lastmsg {
     opacity: .5;
+    flex-grow: 1;
 }
 
 
