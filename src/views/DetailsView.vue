@@ -31,7 +31,7 @@ const active = ref("home");
                         <div class="images outside"></div>
 
                     </div>
-                    <RouterLink to="" class="btn">Stuur bericht <i class="fa-solid  fa-paper-plane"></i></RouterLink>
+                    <RouterLink to="/messages" class="btn">Stuur bericht <i class="fa-solid  fa-paper-plane"></i></RouterLink>
                 </div>
     
             </div>
@@ -94,7 +94,10 @@ p {
     display: flex;
     flex-direction: column;
     width: 100%;
-    max-height: 50vh;
+    height: 100%;
+    height: -moz-available;          
+    height: -webkit-fill-available;  
+    height: fill-available;
     overflow: scroll;
 
 }

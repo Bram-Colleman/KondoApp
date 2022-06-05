@@ -77,7 +77,10 @@ h1 {
     display: flex;
     flex-direction: column;
     width: 100%;
-    max-height: 50vh;
+    height: 100%;
+    height: -moz-available;          
+    height: -webkit-fill-available;  
+    height: fill-available;
     overflow: scroll;
 
 }
