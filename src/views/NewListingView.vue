@@ -77,10 +77,11 @@ h1 {
     display: flex;
     flex-direction: column;
     width: 100%;
-    height: 100%;
+    height: 50vh;
     height: -moz-available;          
     height: -webkit-fill-available;  
     height: fill-available;
+    max-height: 50vh;
     overflow: scroll;
 
 }
@@ -100,6 +101,8 @@ h1 {
 .target {
     background-image: url(../assets/target.svg);
     background-size: contain;
+    background-repeat: no-repeat;
+    background-position: right center;
 }
 .btn {
     flex-grow: 1;

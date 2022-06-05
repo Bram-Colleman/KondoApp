@@ -98,6 +98,7 @@ p {
     height: -moz-available;          
     height: -webkit-fill-available;  
     height: fill-available;
+    max-height: 50vh;
     overflow: scroll;
 
 }
