@@ -25,7 +25,7 @@ let active = ref("profile");
                     <RouterLink to="/details"><img src="../assets/Fav2.png"></RouterLink>
                 </div>
             </div>
-            <Navigation :active="active" />
+            <Navigation :active="active" class="navigation" />
 
         </div>
 
@@ -45,7 +45,7 @@ main {
     overflow-y: hidden;
 }
 .pagecontainer {
-    margin: 2rem 1rem;
+    margin: 0 1rem;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -56,7 +56,7 @@ main {
     height: fill-available;
 }
 .card {
-    margin: 0;
+    margin: 2rem 0;
 }
 h1 {
     text-align: center;
@@ -111,6 +111,10 @@ h1 {
 }
 .favorites h3 {
     grid-column: 1/3;
+}
+
+.navigation {
+    margin: 2rem 0;
 }
 
 </style>
