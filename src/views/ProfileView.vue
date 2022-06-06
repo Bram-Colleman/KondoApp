@@ -49,11 +49,7 @@ main {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-
     height: 100%;
-    height: -moz-available;          
-    height: -webkit-fill-available;  
-    height: fill-available;
 }
 .card {
     margin: 2rem 0;
