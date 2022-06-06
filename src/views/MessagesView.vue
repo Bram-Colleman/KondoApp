@@ -90,14 +90,14 @@ main {
 
 }
 .pagecontainer {
-    height: 100%;
-
+    height: calc(100%-8rem);
+    padding: 2rem 1rem;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
 }
 .card {
-    margin: auto 1rem;
+    height: 100%;
 }
 h1 {
     text-align: center;
@@ -107,7 +107,7 @@ h1 {
 .scroll {
     overflow-y: scroll;
     height: 100%;
-    max-height: calc(100vh - 21.75rem);
+    max-height: calc(100vh - 17.75rem);
     /* max-height: 100vh; */
     
 }
@@ -173,5 +173,6 @@ h1 {
 
 .navigation {
     margin-bottom: 2rem;
+    margin-top: 2rem;
 }
 </style>
