@@ -63,7 +63,8 @@ main {
 }
 
 .navigation {
-    margin-bottom: 2rem;
+    margin: 2rem 1rem;
+    width: calc(100% - 2rem);
 }
 .flex {
     display: flex;

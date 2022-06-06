@@ -7,8 +7,8 @@ const active = ref("messages");
 </script>
 
 <template>
-  <main>
-      <div class="pagecontainer">
+    <main>
+        <div class="pagecontainer">
             <div class="card">
                 <h1>Berichten</h1>
                 <div class="scroll">
@@ -67,11 +67,10 @@ const active = ref("messages");
                             <p class="lastmsg flex"><i class="fa-solid fa-reply"></i>Ja hoor!</p>
                         </div>
                     </div>
-                </div>
-                
+                </div>   
             </div>
             <Navigation class="navigation" :active="active" />
-      </div>
+        </div>
   </main>
 </template>
 
@@ -90,15 +89,22 @@ main {
 
 }
 .pagecontainer {
-    padding: 2rem 1rem;
+    height: 100%;
+    height: -moz-available;          
+    height: -webkit-fill-available;  
+    height: fill-available;
+    margin: 1rem;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+
 }
 .card {
     height: 100%;
     margin: 0;
 }
+
+
 h1 {
     text-align: center;
     font-size: 1.75rem;
@@ -172,7 +178,7 @@ h1 {
 
 
 .navigation {
-    margin-bottom: 2rem;
-    margin-top: 2rem;
+    margin: 2rem 0em;
+    width: 100%;
 }
 </style>

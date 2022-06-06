@@ -34,7 +34,7 @@ onMounted(() => {
                 </RouterLink></li>
             <li id="messages"><RouterLink to="/messages"><i class="fa-solid  fa-paper-plane"></i></RouterLink></li>
             <li id="home"><RouterLink to="/home"><i class="fa-solid fa-location-dot"></i></RouterLink></li>
-            <li id="profile"><RouterLink to="/home"><i class="fa-solid fa-user"></i></RouterLink></li>
+            <li id="profile"><RouterLink to="/profile"><i class="fa-solid fa-user"></i></RouterLink></li>
             <li id="settings"><RouterLink to="/home"><i class="fa-solid fa-gear"></i></RouterLink></li>
         </ul>
     </nav>

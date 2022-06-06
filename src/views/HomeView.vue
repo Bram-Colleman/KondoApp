@@ -29,7 +29,7 @@ setTimeout(function(){
             <div class="card target">
                 <i class="fa-solid fa-crosshairs"></i>
             </div>
-            <Navigation :active="active" />
+            <Navigation :active="active"  class="navigation"/>
         </section>
     </div>
     <img src="../assets/currentLoc.svg" alt="" class="currentloc">
@@ -146,6 +146,10 @@ main {
     font-size: 2rem;
     padding:.75rem 1rem;
     margin: 0 1rem 1rem 0;
+}
+.navigation {
+        margin: 0rem 1rem;
+    width: calc(100% - 2rem);
 }
 
 
