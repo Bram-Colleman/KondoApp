@@ -123,7 +123,7 @@ h1 {
     display: flex;
     align-items: flex-end;
     height: 100%;
-    padding: 2rem 1rem;
+    padding: 1rem 1rem;
     box-sizing: border-box;
 }
 </style>
