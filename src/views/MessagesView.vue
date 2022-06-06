@@ -98,6 +98,7 @@ main {
 }
 .card {
     margin: 2rem 1rem;
+    height: calc(100vh - 12rem);
 
 }
 h1 {
