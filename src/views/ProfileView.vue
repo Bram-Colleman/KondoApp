@@ -56,7 +56,11 @@ main {
     height: fill-available;
 }
 .card {
-    margin: auto 0;
+    margin: 0 0 2rem 0;
+    height: 100%;
+    height: -moz-available;          
+    height: -webkit-fill-available;  
+    height: fill-available;
 }
 h1 {
     text-align: center;
