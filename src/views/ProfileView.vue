@@ -25,8 +25,10 @@ let active = ref("profile");
                     <RouterLink to="/details"><img src="../assets/Fav2.png"></RouterLink>
                 </div>
             </div>
-            <Navigation :active="active" class="navigation" />
 
+        </div>
+        <div class="flexnav">
+            <Navigation :active="active" class="navigation" />
         </div>
 
     </main>
@@ -112,5 +114,16 @@ h1 {
 .navigation {
     margin: 2rem 0;
 }
-
+.flexnav {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    margin: 0;
+    display: flex;
+    align-items: flex-end;
+    height: 100%;
+    padding: 2rem 1rem;
+    box-sizing: border-box;
+}
 </style>
