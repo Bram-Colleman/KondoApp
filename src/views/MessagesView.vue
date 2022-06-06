@@ -90,8 +90,6 @@ main {
 
 }
 .pagecontainer {
-    height: calc(100%-8rem);
-    max-height: -webkit-fill-available;
     padding: 2rem 1rem;
     display: flex;
     flex-direction: column;
