@@ -98,7 +98,6 @@ main {
 }
 .card {
     margin: 2rem 1rem;
-    height: calc(100% - 4rem);
 
 }
 h1 {
@@ -109,7 +108,7 @@ h1 {
 .scroll {
     overflow-y: scroll;
     height: 100%;
-    max-height: calc(100vh - 17.75rem);
+    max-height: calc(100vh - 19.75rem);
     /* max-height: 100vh; */
     
 }
