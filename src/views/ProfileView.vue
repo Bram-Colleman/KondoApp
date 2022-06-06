@@ -11,7 +11,7 @@ let active = ref("profile");
             <div class="card">
                 <h1>Profiel</h1>
                 <div class="profilepic">
-                    <img src="../assets/profilePic2.png">
+                    <img src="../assets/ProfilePic2.png">
                     <span class="btn--overlay"><i class="fa-solid fa-pen"></i></span>
                 </div>
                 <div class="bio">
