@@ -97,9 +97,7 @@ main {
     justify-content: space-between;
 }
 .card {
-    margin: 2rem 1rem;
-    height: calc(100% - 14rem);
-
+    margin: auto 1rem;
 }
 h1 {
     text-align: center;
@@ -109,7 +107,7 @@ h1 {
 .scroll {
     overflow-y: scroll;
     height: 100%;
-    max-height: calc(100vh - 19.75rem);
+    max-height: calc(100vh - 21.75rem);
     /* max-height: 100vh; */
     
 }
