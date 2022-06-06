@@ -45,7 +45,7 @@ main {
     overflow-y: hidden;
 }
 .pagecontainer {
-    margin: 2rem 1rem 4rem 1rem;
+    margin: 2rem 1rem;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -56,7 +56,7 @@ main {
     height: fill-available;
 }
 .card {
-    margin: 0;
+    margin: auto 0;
 }
 h1 {
     text-align: center;
