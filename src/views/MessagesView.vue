@@ -99,9 +99,6 @@ main {
 .card {
     margin: 2rem 1rem;
     height: calc(100% - 2rem);
-    height: -moz-available;          
-    height: -webkit-fill-available;  
-    height: fill-available;
 
 }
 h1 {
