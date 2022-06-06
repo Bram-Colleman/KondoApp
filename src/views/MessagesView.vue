@@ -98,7 +98,8 @@ main {
 }
 .card {
     margin: 2rem 1rem;
-    height: calc(100vh - 192px);
+    height: calc(100vh - 12rem);
+    height: calc(-webkit-fill-available - 12rem);
 
 }
 h1 {
