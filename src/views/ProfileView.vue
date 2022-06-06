@@ -45,7 +45,7 @@ main {
     overflow-y: hidden;
 }
 .pagecontainer {
-    margin: 2rem 1rem;
+    margin: 2rem 1rem 4rem 1rem;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
