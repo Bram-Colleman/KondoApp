@@ -91,9 +91,6 @@ main {
 }
 .pagecontainer {
     height: 100%;
-    height: -moz-available;          
-    height: -webkit-fill-available;  
-    height: fill-available;
 
     display: flex;
     flex-direction: column;
@@ -115,7 +112,8 @@ h1 {
 .scroll {
     overflow-y: scroll;
     height: 100%;
-    max-height: calc(100vh - 17.5rem);
+    max-height: calc(100vh - 17.75rem);
+    /* max-height: 100vh; */
     
 }
 .chat {
